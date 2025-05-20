@@ -1,11 +1,11 @@
-local _ = require('AG_shared')
+local _ = require('Mods.Adaptive Graphics.scripts.AG_shared')
 -------------------
 --GLOBAL SETTINGS--
 -------------------
 
 local cfg = {
 	upscalingSettings = 1, -- If set to 0, in game upscaling settings will be used. If set to 1, below settings will be used.
-	debugLevel        = DebugLevels.ERROR
+	debugLevel        = DebugLevels.ERROR -- DebugLevels.NONE, DebugLevels.FORCED, DebugLevels.ERROR, DebugLevels.WARN, DebugLevels.INFO
 }
 
 -- Comment out settings by putting -- before them to use in game settings
@@ -20,6 +20,7 @@ cfg[Locations.WORLD] = {
 	enableDFAO        = 1,
 	skylightIntensity = 0.8, -- if DFAO is too dark for your taste, raise this slightly, to 1.2 for example.
 
+	-- Quality.LOW, Quality.MED, Quality.HIGH, Quality.ULTRA
 	hardwareLumenQuality      = Quality.LOW,
 	GlobalIlluminationQuality = Quality.HIGH,
 	EffectsQuality            = Quality.HIGH,
@@ -54,6 +55,7 @@ cfg[Locations.INDOOR] = {
 	enableDFAO        = 1,
 	skylightIntensity = 1.2, -- if DFAO is too dark for your taste, raise this slightly, to 1.2 for example.
 
+	-- Quality.LOW, Quality.MED, Quality.HIGH, Quality.ULTRA
 	hardwareLumenQuality      = Quality.ULTRA,
 	GlobalIlluminationQuality = Quality.ULTRA,
 	EffectsQuality            = Quality.ULTRA,
@@ -88,6 +90,7 @@ cfg[Locations.CITY] = {
 	enableDFAO        = 1,
 	skylightIntensity = 0.8, -- if DFAO is too dark for your taste, raise this slightly, to 1.2 for example.
 
+	-- Quality.LOW, Quality.MED, Quality.HIGH, Quality.ULTRA
 	hardwareLumenQuality      = Quality.LOW,
 	GlobalIlluminationQuality = Quality.HIGH,
 	EffectsQuality            = Quality.HIGH,
@@ -122,6 +125,7 @@ cfg[Locations.OBLIVION] = {
 	enableDFAO        = 1,
 	skylightIntensity = 0.8, -- if DFAO is too dark for your taste, raise this slightly, to 1.2 for example.
 
+	-- Quality.LOW, Quality.MED, Quality.HIGH, Quality.ULTRA
 	hardwareLumenQuality      = Quality.HIGH,
 	GlobalIlluminationQuality = Quality.HIGH,
 	EffectsQuality            = Quality.HIGH,
