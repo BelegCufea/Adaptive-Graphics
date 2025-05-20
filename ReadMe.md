@@ -28,4 +28,4 @@ Each location type has its own configuration section. The structure is largely b
 ## Instalation
 
 1. Download and extract this mod.
-2. Copy the entire folder structure into `\OblivionRemastered\Binaries\Win64\UE4SS`
+2. Copy the entire `AdaptiveGraphics` folder structure into `\OblivionRemastered\Binaries\Win64\UE4SS\Mods`
