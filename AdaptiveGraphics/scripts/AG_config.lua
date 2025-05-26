@@ -1,4 +1,4 @@
-local _ = require('Mods.Adaptive Graphics.scripts.AG_shared')
+local _ = require('AG_shared')
 -------------------
 --GLOBAL SETTINGS--
 -------------------
